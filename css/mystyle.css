@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Barlow';
+}
+
+.gradient {
+  min-height: 100%;
+  min-height: 100dvh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 11%, rgba(42, 123, 155, 1) 45%, rgba(87, 199, 133, 1) 76%, rgba(237, 221, 83, 1) 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+
+.w-100 {
+  width: 100%;
+}
+
+.w3-quarter {
+  width: 24.99999% !important
+}
+
+.tab-button {
+  white-space: normal !important;
+  font-size: 12px; /* smaller size for mobile */
+  padding: 6px 4px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 32px;
+  margin: 16px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+

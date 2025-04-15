@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <title>PPBI Cab Sukoharjo - Registrasi Kalpataru 4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/ppbi.jpg" type="image/jpeg">
+
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <script src="js/w3.js"></script>
+</head>
+
+<body class="gradient">
+
+  <div w3-include-html="navigation.html"></div>
+  <main>
+    <div id="HOME" w3-include-html="home.html" class="w3-animate-bottom"></div>
+    <div id="REG" w3-include-html="registration.html" style="display:none" class="w3-animate-bottom"></div>
+    <div id="RULE" w3-include-html="regulation.html" style="display:none" class="w3-animate-bottom"></div>
+    <div id="LOGIN" w3-include-html="login.html" style="display:none" class="w3-animate-bottom"></div>
+    <div w3-include-html="footer.html"></div>
+  </main>
+
+  <script src="js/myscript.js"></script>
+  <script>
+    w3.includeHTML(() => {
+      w3.show('#HOME'); // Show HOME on load
+    });
+  </script>
+</body>
+
+</html>
